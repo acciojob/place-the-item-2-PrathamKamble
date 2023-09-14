@@ -1,2 +1,26 @@
+.red{
+	background-color: red;
+	order:2;
+}
 
-/* Your CSS Code here. */
+.blue{
+	background-color: blue;
+	order:3;
+}
+
+.green{
+	background-color: green;
+	order:1;
+}
+
+.holder{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item{
+	width: 100px;
+	height: 100px;
+	color: white;
+	font-size: 35px;
+}
